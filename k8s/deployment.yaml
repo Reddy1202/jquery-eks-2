@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: jquery
-        image: 897025645367.dkr.ecr.ap-south-1.amazonaws.com/jquery-eks2:$BUILD_NUMBER
+        image: 897025645367.dkr.ecr.ap-south-1.amazonaws.com/jquery-eks2:number
         resources:
           limits:
             memory: "128Mi"
